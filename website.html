@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RahulKannan V P | Professional Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>RAHULKANNAN V P</h1>
+        <p>Building modern web experiences & AI integrations</p>
+        
+        <nav>
+            <a href="#about_me">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+
+        <section id="about_me">
+            <h2>About Me</h2>
+            <p>
+                First-year dual-degree student pursuing a B.Tech in Mathematics and Computing at 
+                Manipal Institute of Technology, Bengaluru, alongside an 
+                online BBA in Digital Business and Entrepreneurship at IIM Bangalore. 
+                Combining strong analytical and programming fundamentals with hands-on experience in 
+                e-commerce operations, customer support, and community outreach.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            
+            <article>
+                <h3>Working Committee Member (Outreach) — Manipal Bengaluru Open Source Community (MBOSC)</h3>
+                <p><em>Duration: 2026-present</em></p>
+                <ul>
+                    <li>Manage student engagement, partnerships, and external outreach initiatives for the campus open-source community.</li>
+                    <li>Coordinate communication and event promotions across student cohorts.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>E-Commerce Intern — Amazon Marketplace</h3>
+                <p><em>Duration: Summer 2025</em></p>
+                <ul>
+                    <li>Managed online product listings, catalog details, and marketplace sales operations.</li>
+                    <li>Handled order processing workflows and tracked fulfillment timelines.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Customer Operations Intern</h3>
+                <p><em>Duration: March 2026 – June 2026</em></p>
+                <ul>
+                    <li>Handled inbound customer queries and resolved service issues efficiently.</li>
+                    <li>Maintained accurate call logs and customer support documentation.</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Photography Club Leader — G-FEST (Emerald Valley Public School)</h3>
+                <p><em>Duration: 2024 – 2025</em></p>
+                <ul>
+                    <li>Led the student photography team and coordinated event coverage for the annual school festival.</li>
+                    <li>Organized visual media documentation across multiple cultural and competitive events.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education History</h2>
+            <article>
+                <h3>B.Tech in Mathematics and Computing</h3>
+                <p><strong>Manipal Institute of Technology, Bengaluru</strong></p>
+                <p>2026 – 2030</p>
+            </article>
+            
+            <article>
+                <h3>BBA in Digital Business and Entrepreneurship (Online)</h3>
+                <p><strong>IIM Bangalore</strong></p>
+                <p>2026 – 2029</p>
+            </article>
+
+            <article>
+                <h3>Higher Secondary Certificate (Class XII - CBSE)</h3>
+                <p><strong>Emerald Valley Public School, Salem</strong></p>
+                <p>Graduated: 2026 | Diamond Award Recipient | Top School Rank in Mathematics (93)</p>
+            </article>
+        </section>
+
+        <section id="projects">
+            <h2>Key Projects</h2>
+
+            <article>
+                <h3>S.I.G.H.T. — AI Security Camera System</h3>
+                <p>
+                    Designed and built an AI-powered security camera monitoring system for automated visual detection.
+                    Implemented real-time surveillance alert workflows to flag anomalies.
+                </p>
+                <p><strong>Technologies:</strong> Python, OpenCV, TensorFlow (YOLO), Moondream</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills &amp; Certifications</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Domain / Category</th>
+                        <th>Skills &amp; Tools</th>
+                        <th>Certification Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programming</td>
+                        <td>C, C++, Python</td>
+                        <td>Active Practitioner</td>
+                    </tr>
+                    <tr>
+                        <td>Version Control &amp; Hosting</td>
+                        <td>Git, GitHub Repositories, GitHub Pages</td>
+                        <td>Active Practitioner</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><em>Self-studying via MSYS2 UCRT64 GCC and VS Code environments.</em></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="hobbies">
+            <h2>Extracurricular Activities &amp; Hobbies</h2>
+            <ul>
+                <li>Competitive Badminton & Athletics (100m, 400m, 4x100m), Basketball</li>
+                <li>PC Gaming (Valorant)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form action="/submit-contact" method="get">
+                <label for="contact-name">Your Full Name:</label>
+                <input type="text" name="fullName" id="contact-name" minlength="2" maxlength="30" required>
+
+                <label for="contact-email">Your Email Address:</label>
+                <input type="email" name="userEmail" id="contact-email" required>
+
+                <label>You are contacting as:</label><br>
+                <input type="radio" name="contactRole" id="recruiter" value="recruiter" required>
+                <label for="recruiter" style="display:inline; font-weight:normal;">Recruiter / Employer</label><br>
+                
+                <input type="radio" name="contactRole" id="peer" value="peer">
+                <label for="peer" style="display:inline; font-weight:normal;">Peer / Collaborator</label><br><br>
+
+                <label for="inquiry-type">Reason for Contact:</label>
+                <select name="inquiryType" id="inquiry-type">
+                    <option value="job">Job Opportunity / Internship</option>
+                    <option value="freelance">Freelance Collaboration</option>
+                    <option value="general">General Networking</option>
+                </select>
+
+                <input type="checkbox" name="terms" id="terms" value="agreed" required>
+                <label for="terms" style="display:inline; font-weight:normal;">I agree to be contacted via email.</label><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
